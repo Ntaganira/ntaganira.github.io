@@ -19,6 +19,8 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+                  <!-- Library for scrolling -->
+        <link rel="stylesheet" href="scroll/aos.css" />
     </head>
 
     <body>
@@ -74,34 +76,34 @@
                <div class="row">
                  <div class="col-md-6">
                    <div class="heritier-title">
-                        <h2>Heritier NTAGANIRA</h2>
-                    <p class="text-justify">
+                        <h2 data-aos="fade-up">Heritier NTAGANIRA</h2>
+                    <p class="text-justify" data-aos="fade-down">
                        FreeLancer
                    </p>
                    </div>
                    </div>
                    <div class="col-md-6 text-center">
-                    <img src="img/heritier.png" class="img-fluid1">
-                                <p class="text-justify">
+                    <img src="img/heritier.png" class="img-fluid1" data-aos="flip-right">
+                                <p class="text-justify" data-aos="flip-left">
                                    FreeLancer Web Developer with over 5 years of experience is seeking to obtain a challenging and
                                    rewarding web developer position where I can utilize my diverse eduction  and experience and continue
                                    to grow. 
                                </p>
-                               <p class="text-center">
-                                   <a href="https://web.facebook.com/ntaganira.heritier1/">
+                               <p class="text-center" data-aos="fade-up">
+                                   <a data-aos="fade-up" href="https://web.facebook.com/ntaganira.heritier1/">
                                         <i class="fa-social fa  fa-facebook"></i>
                                     </a>
-                                   <a href="https://www.instagram.com/ntaganira71/">
+                                   <a data-aos="fade-down" href="https://www.instagram.com/ntaganira71/">
                                         <i class="fa-social fa  fa-instagram"></i>
                                     </a>
-                                    <a href="https://api.whatsapp.com/send?phone=250788533669">
+                                    <a data-aos="fade-up" href="https://api.whatsapp.com/send?phone=250788533669">
                                         <i class="fa-social fa  fa-whatsapp"></i>
                                     </a>
-                                    <a href="https://www.linkedin.com/in/ntaganira-heritier-a96084123/">
+                                    <a data-aos="fade-down" href="https://www.linkedin.com/in/ntaganira-heritier-a96084123/">
                                         <i class="fa-social fa  fa-linkedin"></i>
                                     </a>
                                </p>
-                    <a href="#">
+                    <a href="project.html">
                         <i class="float-right fa fa-long-arrow-right"></i>
                     </a>
                    </div>
@@ -109,7 +111,15 @@
            </div>
            </section>
         </main>
-
+  <!-- Scrolling -->
+   <script src="scroll/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: 'ease-in-out-sine',
+              offset: 120, // offset (in px) from the original trigger point
+              delay: 100, // values from 0 to 3000, with step 50ms
+      });
+    </script>
         <!-- Bootstrap core JavaScript
         ================================================== -->
         <!-- Placed at the end of the document so the pages load faster -->
@@ -118,15 +128,6 @@
         <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
         <script src="assets/js/vendor/popper.min.js"></script>
         <script src="dist/js/bootstrap.min.js"></script>
-
-
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>
-          AOS.init({
-              offset: 120, // offset (in px) from the original trigger point
-              delay: 100, // values from 0 to 3000, with step 50ms
-          });
-        </script>
 
         <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
         <script src="assets/js/vendor/holder.min.js"></script>

@@ -278,6 +278,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 50%;
     font-size: 30px;
     margin: 20px 0;
+        box-shadow: 0px -1px 5px orange;
 }
 
 .img-fluid1 {
