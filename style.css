@@ -184,9 +184,13 @@ h1, h2, h3, h4, h5, h6 {
     color: #ff6f00;
 }
 
-
+.mobile12{
+    display: none;
+}
 
 @media(max-width: 1024px){
+
+
     body{
             background: #fff;
     }
@@ -198,6 +202,18 @@ h1, h2, h3, h4, h5, h6 {
         opacity: 0.98;
     }
 
+.introduction {
+    padding-top: 100px;
+    width: 100%;
+    margin: auto;
+}
+
+.computer12{
+    display: none;
+}
+.mobile12{
+    display: block;
+}
      .navbar-dark .navbar-nav .nav-link, .navbar-dark .navbar-nav .nav-link:visited {
     color: #000000;
     font-size: 15px;
@@ -247,55 +263,78 @@ h1, h2, h3, h4, h5, h6 {
         border-radius: 3px;
     }
 
-.text-p {
-    font-size: 15px;
-    color: #000000;
-    position: absolute;
-    bottom: -3vh;
-    font-family: monospace;
-    left: 0;
-    right: -190px;
-    left: 0vh;
-    background: #97c120d9;
-    padding: 20px;
-    border-top-left-radius: 40px;
-    border-bottom-right-radius: 40px;
-    line-height: 1.7;
-    letter-spacing: 2px;
-}
-
-    .photo-card img {
-        width: 200%;
-    }
-
- .photo-card .title-h1 {
-    font-size: 35px;
-    color: #ff6f00;
-    line-height: 63px;
-    position: absolute;
-    letter-spacing: 4px;
-    font-weight: 700;
-    bottom: 550px;
-    right: 0;
-    left: 2vh;
-    border-bottom: solid 0.1px;
-    text-shadow: 2px 0px 5px white;
-    /* background: red; */
-    width: 200px;
-}
+ 
 .navbar-dark .navbar-toggler {
     /* color: rgb(255 255 255); */
     border-color: #FF5722;
 }
 
 .fa-long-arrow-right {
-    color: #ffffff;
+        color: #ffffff;
     float: right;
-    background: #ff6f00;
+    background: #97c120e8!important;
     margin: auto;
-    padding: 15px;
+    padding: 7px;
     border-radius: 50%;
-    font-size: 38px;
-    margin-top: 15px;
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+.img-fluid1 {
+    max-width: 50%;
+    height: auto;
+    margin-top: 50px;
+    background: #c3c3c324;
+    border-radius: 10px;
+}
+
+
+.heritier-title{
+    margin-top: 50px;
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid orange;
+}
+
+.heritier-title::after {
+    position: absolute;
+    content: ' ';
+    background-image: url(img/nav-link.png);
+    background-size: 21px;
+    bottom: -14px;
+    /* border-radius: 50%; */
+    height: 20px;
+    width: 22px;
+    background-repeat: no-repeat;
+    left: 50%;
+}
+
+.heritier-title .text-justify {
+    text-align: right!important;
+    margin-bottom: 0px;
+    color: #FF9800;
+    font-family: cursive;
+}
+
+.fa-social{
+    padding: 10px;
+    font-size: 25px;
+    border: 1px solid #97c120e8!important;
+}
+
+.fa-facebook{
+    color: #04088c;
+}
+
+.fa-instagram{
+   background: linear-gradient(45deg, #f90000, #c30491f2);
+   border-radius: 10%;
+}
+
+.fa-whatsapp{
+    color:#5bad01;
+}
+.fa-linkedin{
+    color:#257bad;
 }
 }
