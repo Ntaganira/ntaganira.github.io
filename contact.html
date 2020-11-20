@@ -16,6 +16,10 @@
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
         <link href="contact.css" rel="stylesheet"/>
+
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     </head>
@@ -49,7 +53,30 @@
             </nav>
         </header>
         <main role="main">
-           <section class="introduction">
+
+            <section class="contact-computer">
+            <div class="container">
+               <div class="row">
+
+                   <div class="col-md-4 text-center"></div>
+                   <div class="col-md-8 text-center">
+                        <h1 class="title-h1" data-aos="fade-right"
+                                             data-aos-offset="300"
+                                             data-aos-easing="ease-in-sine">CONTACT</h1>
+                        <p class="container-paragraph" data-aos="fade-up"
+                                                data-aos-easing="ease-out-cubic"
+                                             data-aos-duration="5000">
+                           <b><i class="fa fa-envelope"></i> Email:</b> ntaganira71@gmail.com<br/><br/>
+                           <b><i class="fa fa-phone"></i> Phone:</b> (+250) 788 533 669<br/><br/>
+                           <b><i class="fa fa-map-marker"></i> Address:</b> KG480 st<br/>
+                        </p>
+                   </div>
+               </div>
+           </div>
+           </section>
+
+
+           <section class="contact-mobile">
             <div class="container">
                <div class="row">
                    <div class="col-md-4 text-center">
@@ -96,33 +123,9 @@
         </script>
 
         <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
-        <script src="assets/js/vendor/holder.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
-
-
-        <script type="text/javascript">
-            $(document).ready(function () {
-                $('.customer-logos').slick({
-                    slidesToShow: 4,
-                    slidesToScroll: 1,
-                    autoplay: true,
-                    autoplaySpeed: 2500,
-                    arrows: false,
-                    dots: false,
-                    pauseOnHover: false,
-                    responsive: [{
-                            breakpoint: 768,
-                            settings: {
-                                slidesToShow: 4
-                            }
-                        }, {
-                            breakpoint: 520,
-                            settings: {
-                                slidesToShow: 3
-                            }
-                        }]
-                });
-            });
+       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+       <script>
+          AOS.init();
         </script>
     </body>
 </html>

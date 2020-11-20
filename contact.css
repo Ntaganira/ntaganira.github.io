@@ -395,19 +395,42 @@ ul.timeline  li p {
     text-align: justify;
 }
 
-
-
-footer, main{
-    display: none;
+.title-h1 {
+    margin-top: 200px;
+    margin-bottom: 100px;
 }
 
+
+.footer, .contact-mobile{
+    display: none;
+}
+.container-paragraph{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 20px;
+}
+
+b, strong {
+    font-weight: 400;
+    padding: 20px;
+    color: #ff8a30;
+    font-family: monospace;
+}
+
+.text-center {
+    text-align: left!important;
+    margin-left: 0;
+}
 @media(max-width: 1024px){
     body{
         background: #fff;
     }
 
+.contact-computer{
+    display: none;
+}
 
-main{
+.contact-mobile{
     display: block;
 }
 
