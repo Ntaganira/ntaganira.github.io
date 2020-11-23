@@ -101,9 +101,9 @@ i {
 
 .btn-fixed {
     display: block;
-    position: fixed;
-    bottom: 45%;
-    right: 30px;
+    position: fixed; 
+       bottom: 75%;
+    right: 25px;
     width: 65px;
     height: 65px;
     border-radius: 50%;
