@@ -93,6 +93,17 @@ ol li{
     padding: 10px;
 }
 
+.img-fluid{
+    width: 150px!important;
+    height: 100px;
+    border-radius: 10%;
+    border: 1px solid #ffa50085;
+    display: block;
+    text-align: center;
+    margin: 30px;
+}
+
+
 @media (max-width: 1024px){
     p.ans-div {
     border-bottom: solid 1px #a1c635;
@@ -190,4 +201,5 @@ i {
     text-decoration: none;
     box-shadow: 0 0px 2px #a1c635;
 }
+
 }
