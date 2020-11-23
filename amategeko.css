@@ -99,7 +99,7 @@ i {
     letter-spacing: 1px;
 }
 
-#fixedbutton {
+.btn-fixed {
     display: block;
     position: fixed;
     bottom: 45%;
@@ -108,5 +108,26 @@ i {
     height: 50px;
     border-radius: 50%;
     border: solid 1px #97c120e8;
+}
+
+.images{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.btn-fixed::after {
+    content: "1";
+    bottom: 10px;
+    right: -7px;
+    color: white;
+    background: #ff740a;
+    /* padding: 0 6px; */
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    width: 15px;
+    text-align: center;
+    font-size: 10px;
+    padding: -10px;
 }
 }
