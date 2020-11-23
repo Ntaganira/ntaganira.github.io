@@ -43,11 +43,13 @@ i{
 
 
 @media (max-width: 1024px){
-.navbar-dark .navbar-toggler {
-    /* color: rgb(255 255 255); */
-    border-color: #FF5722;
-    float: left!important;
-    text-align: left;
-    margin: 0 184vh 0 0;
+    p.ans-div {
+    border-bottom: solid 1px #a1c635;
+    margin: 40px;
+    background: #ffc10733;
+    padding: 30px 10px;
+    font-size: 17px;
+    border-radius: 5px;
+    font-family: monospace;
 }
 }
