@@ -1,5 +1,7 @@
-body{
-    background: #f3f0e4;
+.container{
+    background: #f3f0e4fa;
+    padding: 50px 0;
+    border-top: solid 1px #ff6f00;
 }
 
 b.title {
@@ -20,8 +22,7 @@ div.ans {
     display: inline-block;
     font-size: 10px;
 }
-
-dl, ol {
+.subtitles, dl, ol {
     margin-top: 0;
     margin-bottom: 1rem;
     color: #709600;
@@ -33,14 +34,39 @@ dl, ol {
 p.ans-div {
     border-bottom: solid 1px #eebb0d42;
     margin: 40px;
+    width: 60%;
+    padding: 30px 10px;
+    background: #ffc1072b;
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
 }
 
-i{
+i {
     font-weight: bold;
+    letter-spacing: -1px;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: monospace;
 }
 
 
+#fixedbutton{
+    display: none;
+}
 
+dl, ol {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #4e4e4e;
+    margin: -15px 3px;
+    font-size: 18px;
+}
+
+ol li{
+    padding: 10px;
+}
 
 @media (max-width: 1024px){
     p.ans-div {
@@ -51,5 +77,36 @@ i{
     font-size: 17px;
     border-radius: 5px;
     font-family: monospace;
+
+}
+
+body{
+    background: #f3f0e4fa;
+}
+.container{
+    padding: 2%;
+}
+
+p.ans-div {
+    width: 80%;
+    text-align: left;
+}
+i {
+    font-weight: 600;
+    font-size: 18px;
+    text-align: justify;
+    font-style: initial;
+    letter-spacing: 1px;
+}
+
+#fixedbutton {
+    display: block;
+    position: fixed;
+    bottom: 45%;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: solid 1px #97c120e8;
 }
 }
