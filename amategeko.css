@@ -148,6 +148,10 @@ i {
     border-radius: 50%;
 }
 
+.fa.fa-download{
+    color: #608002;
+    font-size: 15px;
+}
 .btn-fixed::after {
     content: "1";
     bottom: 7px;
@@ -178,10 +182,12 @@ i {
     background: #ff740a;
     color: white;
     padding: 2px 20px;
-    font-size: 10px;
+    font-size: 12px;
     letter-spacing: 1px;
     border: solid #a1c635 1px;
     border-radius: 1px;
     float: right;
+    text-decoration: none;
+    box-shadow: 0 0px 2px #a1c635;
 }
 }
