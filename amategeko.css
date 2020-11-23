@@ -56,6 +56,21 @@ i {
     display: none;
 }
 
+.download-btn {
+    background: #ff740a;
+    color: white;
+    padding: 2px 20px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    border: solid #a1c635 1px;
+    border-radius: 1px;
+    float: right;
+}
+
+.itekarya{
+    display: none;
+}
+
 dl, ol {
     margin-top: 0;
     margin-bottom: 1rem;
@@ -85,6 +100,18 @@ body{
 }
 .container{
     padding: 2%;
+    border: 0;
+    border-radius: 0;   
+}
+
+.itekarya {
+    display: block;
+    background: #ffffff73;
+    padding: 30px 5px;
+    margin: 20% 0;
+    font-family: initial;
+    border-radius: 5px;
+    border-bottom: solid #a1c736f5 1px;
 }
 
 p.ans-div {
