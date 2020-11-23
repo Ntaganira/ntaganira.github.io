@@ -92,11 +92,11 @@ p.ans-div {
     text-align: left;
 }
 i {
-    font-weight: bold;
+    font-weight: 600;
     font-size: 18px;
     text-align: justify;
     font-style: initial;
-    letter-spacing: 1px;
+    letter-spacing: -1px;
 }
 
 .btn-fixed {

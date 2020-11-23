@@ -426,6 +426,11 @@ b, strong {
         background: #fff;
     }
 
+.title-h1 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
 .contact-computer{
     display: none;
 }
@@ -556,16 +561,14 @@ img{
 }
 
 .card-img::after {
-        content: '';
-        position: absolute;
-        background: #ff750b!important;
-        width: 7px;
-        height: 7px;
-        bottom: 0;
-        left: 210px;
-        top: 18px;
-        border-radius: 50%;
-
-    }
+    content: '';
+    position: absolute;
+    background: #ff750b!important;
+    width: 7px;
+    height: 7px;
+    top: 20%;
+    right: 32%;
+    border-radius: 50%;
+}
 
 }
