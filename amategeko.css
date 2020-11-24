@@ -103,6 +103,11 @@ ol li{
     margin: 30px;
 }
 
+.ibyapa-division{
+    padding-top: 10vh;
+    
+}
+
 
 @media (max-width: 1024px){
     p.ans-div {
@@ -201,5 +206,7 @@ i {
     text-decoration: none;
     box-shadow: 0 0px 2px #a1c635;
 }
+
+
 
 }
