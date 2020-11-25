@@ -109,7 +109,25 @@ ol li{
 }
 
 
+
+ol li {
+    font-weight: 500;
+    font-family: monospace;
+    font-size: 25px;
+}
+
 @media (max-width: 1024px){
+
+b.title-sub {
+    color: #000000ba;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    font-family: cursive;
+}
+
+
     p.ans-div {
     border-bottom: solid 1px #a1c635;
     margin: 40px;
@@ -124,7 +142,11 @@ ol li{
 body{
     background: #f3f0e4fa;
 }
-.container{
+
+.introduction {
+    padding-top: 50px;
+    width: 95%;
+    margin: auto;
     padding: 2%;
     border: 0;
     border-radius: 0;   
@@ -217,6 +239,16 @@ i {
     line-height: 2;
     border-radius: 3%;
     margin-top: 30px;
+}
+
+.subtitles, dl, ol {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #709600;
+    margin: -15px;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 32px;
 }
 
 }
