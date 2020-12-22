@@ -61,6 +61,12 @@ main{
 a.navbar-brand img {
     height: 65px;
 }
+.navbar-dark .navbar-brand {
+    color: #ff6f00;
+    font-weight: 800;
+    letter-spacing: -3px;
+    font-size: 35px;
+}
 
 .navbar-dark .navbar-nav .nav-link {
     color: #5a5a5a;

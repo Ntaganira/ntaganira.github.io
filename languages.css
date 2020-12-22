@@ -1,3 +1,10 @@
+.navbar-dark .navbar-brand {
+    color: #ff6f00;
+    font-weight: 800;
+    letter-spacing: -3px;
+    font-size: 35px;
+}
+
 #wrapper {
     width: 500px;
     margin: 0 auto;
